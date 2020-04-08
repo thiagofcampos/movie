@@ -1,15 +1,17 @@
 import React from 'react';
 import Image from '../../atoms/image';
+import {LogoTipo} from './style.js';
 
-const logo = "/static/media/logo.8583fd34.png"
 
-function logotipo() {
+
+function logotipo({logo}) {
   return (
-    <div>
+    <LogoTipo>
       <Image 
           url={logo}
           />
-    </div>
+      <span>HaveMovie</span>    
+    </LogoTipo>
   );
 }
 

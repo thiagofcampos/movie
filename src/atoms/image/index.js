@@ -7,6 +7,9 @@ function image({
   width = "50px",
   height = "50px",
   backgroundColor = "#f1f1f1" }) {
+    
+  
+  console.log("logo", url)
   return (
     <div>
       <Image
