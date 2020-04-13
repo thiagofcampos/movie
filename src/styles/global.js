@@ -22,10 +22,15 @@ export default createGlobalStyle `
     #root .container-default {
         max-width: 1020px;
         margin: 0 auto;
-        padding: 0 20px 50px;
+        padding: 10px 20px 50px;
+        background: #fff;
     }
 
     button {
         cursor: pointer;
+    }
+
+    a {
+        text-decoration: none;
     }
 `

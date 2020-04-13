@@ -1,13 +1,24 @@
 import React from 'react';
 import TopMenu from '../../organisms/topmenu';
+import imagem from '../../assets/logo.png'
+import LineDown from '../../atoms/linedown'
 
-const logo = "https://66.media.tumblr.com/252c56cff8c1bc0e68091e0f1fabfada/tumblr_nnxqrckW2i1r3ykgdo1_500.png";
-
+const logo = imagem;
+const routeHome = '/';
+const routeContato = '/contato'
 function header() {
   return (
     <div>
       <TopMenu
         logo={logo}
+        routeHome={routeHome}
+        routeContato={routeContato}
+      />
+      <LineDown
+        marginTop={"0px"}
+        marginBottom={"0px"}
+        height={"20px"}
+        backgroundColor={"#b90000"}
       />
     </div>
   );

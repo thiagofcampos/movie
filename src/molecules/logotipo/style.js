@@ -5,8 +5,9 @@ export const LogoTipo = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 10px;
 
-    span {
-        text-decoration: none
+    img {
+        width: 200px
     }
 `;

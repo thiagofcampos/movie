@@ -6,6 +6,7 @@ export const TopMenu = styled.div`
     justify-content: space-between;
     align-itens: center;
     flex-direction: column;
+    background: #fff;
 
     .container-menu {
         align-self: center;
@@ -13,18 +14,10 @@ export const TopMenu = styled.div`
         widht: 100%;
         justify-content: space-between;
         max-width: 1020px;
-        padding: 0 20px;
-        margin: 25px 0;
+        padding: 15px 20px 0 20px;
         width: 100%;
     }
-
-    .line-down {
-        margin-top: 20px;
-        display: block;
-        width: 100%;
-        height: 1.5px;
-        background: #e2dfdf;
-    }
+    
 `;
 
 export const Contato = styled(Link)`

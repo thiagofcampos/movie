@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from '../../atoms/image';
 import {LogoTipo} from './style.js';
 
 
@@ -7,10 +6,10 @@ import {LogoTipo} from './style.js';
 function logotipo({logo}) {
   return (
     <LogoTipo>
-      <Image 
-          url={logo}
-          />
-      <span>HaveMovie</span>    
+      <img 
+          src={logo}
+          alt="imagem"
+          /> 
     </LogoTipo>
   );
 }

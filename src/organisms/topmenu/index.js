@@ -1,24 +1,25 @@
 import React from 'react';
 import Logotipo from '../../molecules/logotipo';
 import { TopMenu, Contato } from './styles';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import MenuList from '../../molecules/menulist';
 
-function topMenu({logo}) {
+function topMenu({ logo, routeContato, routeHome }) {
   return (
     <TopMenu>
       <div className="container-menu" alt="logo">
-        <Link to='/'>
+        <Link to={routeHome}>
           <Logotipo
             logo={logo}
           />
         </Link>
-        <Contato to='/contato'>
+        <Contato to={routeContato}>
           <div>
             <strong> Contato</strong>
           </div>
         </Contato>
       </div>
-      <div className="line-down" />
+      <MenuList />
     </TopMenu>
   );
 }
