@@ -5,6 +5,7 @@ import store from './store'
 import Routes from './routes';
 import GlobalStyles from './styles/global'
 import Header from './templates/header'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
