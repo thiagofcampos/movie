@@ -1,5 +1,6 @@
 import React from 'react';
 import ContainerCarrossel from '../../molecules/carrossel';
+import HeaderSeparator from '../../molecules/headerseparator';
 
 function home() {
   return (
@@ -8,6 +9,9 @@ function home() {
         Home
     </h1>
       <ContainerCarrossel />
+      <HeaderSeparator
+        text={"Destaques do mês"}
+      />
     </>
   );
 }

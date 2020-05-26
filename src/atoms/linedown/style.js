@@ -7,4 +7,5 @@ export const LineDown = styled.div`
         width: ${(props) => props.width};
         height: ${(props) => props.height};
         background: ${(props) => props.backgroundColor};
+        padding: ${(props) => props.padding};
 `;
