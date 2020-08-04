@@ -18,5 +18,11 @@ span {
     margin: 5px 0;
     font-size: 30px;
     color: #000;
-}
+}`
+;
+
+export const FlexSeparator = styled.div `
+    display: flex;
+    flex-direction: row;
 `;
+
