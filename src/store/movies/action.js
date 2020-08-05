@@ -11,6 +11,13 @@ export async function GetMovie(){
     
 }
 
+export async function GetMoviePopular(){
+    
+    const data = await axios.get(`${API}movie/popular?api_key=${apiKey}`);
+    return data.data
+    
+}
+
 export async function SetMovie(data, useDispatch) {
     const dispatch = useDispatch;
     return dispatch({type:GET_MOVIES_REQUEST, payload: data});

@@ -15,7 +15,7 @@ function topMenu({ logo, routeContato, routeHome }) {
         </Link>
         <Contato to={routeContato}>
           <div>
-            <strong> Contato</strong>
+            <strong> </strong>
           </div>
         </Contato>
       </div>

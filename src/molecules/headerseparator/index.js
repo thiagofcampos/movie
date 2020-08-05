@@ -9,16 +9,16 @@ function headerSeparator({
     <HeaderSeparator>
       <FlexSeparator>
       <LineDown
-        marginTop={"0px"}
+        marginTop={"10px"}
         width={"80%"}
-        marginBottom={"0px"}
+        marginBottom={"10px"}
         height={"2px"}
         backgroundColor={"#b90000"}
       />
       <LineDown
-        marginTop={"0px"}
+        marginTop={"10px"}
         width={"20%"}
-        marginBottom={"0px"}
+        marginBottom={"10px"}
         height={"2px"}
         backgroundColor={"#ffb71b"}
       />
